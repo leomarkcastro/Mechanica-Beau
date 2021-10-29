@@ -1,0 +1,11 @@
+@import url("../../theme/variables.css");
+
+.logo{
+    margin-top: 5vh;
+}
+
+.aboutLogo{
+    width: 100vw;
+    max-width: 100%;
+    margin: auto;
+}

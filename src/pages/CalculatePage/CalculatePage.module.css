@@ -1,0 +1,121 @@
+@import url("../../theme/variables.css");
+
+.logo{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5%;
+
+    text-align: center;
+}
+
+.logo *{
+    font-size: 3rem;
+}
+
+.style{
+    color: var(--ion-color-primary);
+}
+
+.notice{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5%;
+    text-align: center;
+}
+
+.formulaList{
+    --background: linear-gradient(
+        180deg, 
+        rgba(var(--ion-background-color-rgb),1) 0%, 
+        rgba(var(--ion-color-secondary-rgb), 0.5) 25%,
+        rgba(var(--ion-color-secondary-rgb), 0.25) 35%,
+        rgba(var(--ion-background-color-rgb), 1) 100%
+    );
+}
+
+.formulaContent{
+    margin-bottom: 50vh;
+}
+
+.emptyCard{
+    padding: 1rem;
+    background-color: rgba(var(--ion-color-warning-rgb), 0.5);
+    color: var(--ion-color-warning-contrast);
+}
+
+
+.button{
+    --padding-end: 50px;
+}
+
+.card{
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 0.5em;
+}
+
+.card_input{
+    font-size: 1.5rem;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 5%;
+    padding: 0.15em;
+    padding-left: 10%;
+
+}
+
+.card_input input{
+    width: 80%;
+    padding: 5px;
+    padding-left: 1rem;
+    border: 1px solid transparent;
+    background-color: inherit;
+}
+
+.card_input input:focus{
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.formulaSelect{
+    margin-top: auto;
+    --max-height : 50vh;
+}
+
+.formulaCard{
+    height: 35vh;
+    padding: 5%;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+.formulaCard mjx-container{
+    font-size: 1.35em !important;
+}
+
+.formulaCard ion-card-title{
+    font-size: 1rem;
+}
+
+.formulaCardFormula{
+    background-color: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+}
+
+.fab{
+    width: 10rem;
+    --border-radius: 1rem;
+    margin-left: 0;
+    transform: translate(-50%, 0);
+}
+
+.fabParent{
+    margin-left: 0;
+}

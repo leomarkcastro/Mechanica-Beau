@@ -1,0 +1,51 @@
+@import url("../../theme/variables.css");
+
+.size{
+    font-size: 4rem;
+}
+
+.size *{
+    font-size: 4rem;
+}
+
+.style{
+    color: var(--ion-color-warning);
+}
+
+.logoBody{
+    display: flex;
+    align-items: center;
+}
+
+.logoImage{
+    flex: 4;
+    text-align: right;
+}
+
+.logoImage img{
+    width: 100px;
+}
+
+.logoImage img{
+
+}
+
+.logoText{
+    flex: 5;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: -0.75rem;
+}
+
+.logoText *{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0.15rem;
+}
+
+.logoText__highlight{
+    width: fit-content;
+    padding: 0.25rem;
+    background-color: var(--ion-color-tertiary);
+    color: var(--ion-color-tertiary-contrast);
+}

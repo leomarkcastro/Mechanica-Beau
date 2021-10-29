@@ -1,0 +1,28 @@
+@import url("../../theme/variables.css");
+
+.formulaList{
+    --background: linear-gradient(
+        180deg, 
+        rgba(var(--ion-background-color-rgb),1) 0%, 
+        rgba(var(--ion-color-secondary-rgb), 0.5) 25%,
+        rgba(var(--ion-color-secondary-rgb), 0.25) 35%,
+        rgba(var(--ion-background-color-rgb), 1) 100%
+    );
+}
+
+.heroBanner{
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.782)), url('https://res.cloudinary.com/highereducation/image/upload/c_fill,f_auto,fl_lossy,q_auto,w_1200,h_630/v1566232749/BestColleges.com/BC-Career-Mechanical_engineering_vu3sha.jpg');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    height: 35vh;
+    padding: 1.5%;
+}
+
+.listLabel{
+    padding-left: 2.5vw;
+}

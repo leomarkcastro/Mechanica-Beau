@@ -1,0 +1,6 @@
+{
+	"appId": "com.bsu_me.mechabeau",
+	"appName": "Mechanica Beau",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

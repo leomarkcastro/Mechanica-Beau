@@ -1,0 +1,23 @@
+@import url("../../theme/variables.css");
+
+.card_input{
+    font-size: 1.5rem;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.15em;
+    padding-left: 10%;
+}
+
+.card_input input{
+    width: 80%;
+    padding: 5px;
+    padding-left: 1rem;
+    border: 1px solid transparent;
+    background-color: inherit;
+}
+
+.card_input input:focus{
+    border: 1px solid transparent;
+    outline: none;
+}

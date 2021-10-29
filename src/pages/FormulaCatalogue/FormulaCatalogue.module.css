@@ -1,0 +1,17 @@
+@import url("../../theme/variables.css");
+
+.cardCata{
+    display: flex;
+    background-color: white;
+}
+
+.cardCataImage{
+    flex: 1.5;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardCataText{
+    flex: 5;
+    padding: 5%!important;
+}
