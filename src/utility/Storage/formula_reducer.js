@@ -40,22 +40,6 @@ async function load_profile(){
 
 }
 
-let _h = (async () => {
-    let d = await load_profile()
-    for (let key in initialState){
-        initialState[key] = d[key]
-    }
-})
-
-function save_format(content, variables) {
-    return (
-        {
-            parts : content,
-            vars : variables,
-        }
-    )
-    
-}
 
 const formula_reducer = (state = initialState, actions) => {
 
@@ -72,7 +56,6 @@ const formula_reducer = (state = initialState, actions) => {
             ret = {
                 ...state,
             }
-
             ret.formula.push(actions.value) // should contain settings
             ret.formulaData.push({}) // should contain settings
 

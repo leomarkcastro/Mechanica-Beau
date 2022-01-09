@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Mechanica Beau</string>
-    <string name="title_activity_main">Mechanica Beau</string>
-    <string name="package_name">com.bsu_me.mechabeau</string>
-    <string name="custom_url_scheme">com.bsu_me.mechabeau</string>
+    <string name="app_name">Pump Lecturer And Calculator</string>
+    <string name="title_activity_main">Pump Lecturer And Calculator</string>
+    <string name="package_name">com.bsu_me.pumpleccalc</string>
+    <string name="custom_url_scheme">com.bsu_me.pumpleccalc</string>
 </resources>

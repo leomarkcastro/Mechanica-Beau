@@ -21,8 +21,8 @@ class Logo extends React.Component {
                     <img src={logoImg} />
                 </div>
                 <div className={style.logoText}>
-                    <p>MECHANICA</p>
-                    <p className={style.logoText__highlight}>BEAU</p>
+                    <p className={style.logoText__highlight}>PUMP</p>
+                    <p>Lecturer and Calculator</p>
                 </div>
             </div>
         )

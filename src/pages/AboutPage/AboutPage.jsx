@@ -34,11 +34,11 @@ function AboutPage() {
                     <p>v0.0.1</p>
                     <br/>
                     <IonCardTitle>Developers</IonCardTitle>
-                    <p>Wawi Wuwu</p>
-                    <p>Wawi Wuwu</p>
-                    <p>Wawi Wuwu</p>
-                    <p>Wawi Wuwu</p>
-                    <p>Wawi Wuwu</p>
+                    <p>Cedrick Cruz</p>
+                    <p>Jan Michael Pascua</p>
+                    <p>Mhilles Andrey Banico</p>
+                    <p>Kim Flora</p>
+                    <p>Art Joseph Jumaquio</p>
                 </IonCardHeader>
 
             </IonContent>

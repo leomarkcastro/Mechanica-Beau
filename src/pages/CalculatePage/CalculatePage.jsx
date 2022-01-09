@@ -159,7 +159,7 @@ function CalculatePage() {
                         :
                         <IonCard className={`${style.emptyCard} animate__animated animate__fadeInUp`}>
                             <IonCardContent>
-                                <IonCardTitle>Welcome to Mechanica Beau <sub>/byo͞o/</sub></IonCardTitle>
+                                <IonCardTitle>Welcome to Pump Lecturer and Calculator</IonCardTitle>
                                 <br/>
                                 <p>Your friendly formula sheet containing some of the useful Mechanical Principles Formulas.</p>
                                 <br />

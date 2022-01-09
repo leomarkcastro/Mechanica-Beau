@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.bsu_me.mechabeau',
-  appName: 'Mechanica Beau',
+  appId: 'com.bsu_me.pumpleccalc',
+  appName: 'Pump Lecturer And Calculator',
   webDir: 'build',
   bundledWebRuntime: false
 };

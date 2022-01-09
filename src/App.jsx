@@ -31,8 +31,9 @@ import CalculatePage from './pages/CalculatePage/CalculatePage';
 import FormulaCatalogue from './pages/FormulaCatalogue/FormulaCatalogue';
 import AboutPage from './pages/AboutPage/AboutPage';
 import HomePage from './pages/HomePage/HomePage';
-import CentrifugalPumps from './pages/_LessonPages/CentrifugalPumps';
-import ReciprocatingPumps from './pages/_LessonPages/ReciprocatingPumps';
+import PumpsList from './pages/_LessonPages/PumpSize';
+import LessonList from './pages/LessonList/LessonList';
+import LessonPage from './pages/LessonPage';
 
 const App = () => {
 
@@ -52,8 +53,9 @@ const App = () => {
             <Route exact path="/formula" component={FormulaCatalogue} />
             <Route exact path="/about" component={AboutPage} />
 
-            <Route exact path="/lessons/centrifugal" component={CentrifugalPumps}/>
-            <Route exact path="/lessons/reciprocating" component={ReciprocatingPumps}/>
+            <Route exact path="/lessons/pumpsize" component={PumpsList}/>
+            <Route exact path="/lessons/list/:title" component={LessonList}/>
+            <Route exact path="/lessons/view/:title" component={LessonPage}/>
 
             <Redirect from="/" to="/init" exact/>
 

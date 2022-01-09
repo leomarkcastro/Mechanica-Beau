@@ -68,7 +68,7 @@ function ReciprocatingPumps() {
                     <IonButtons slot="start">
                         <IonBackButton defaultHref="/start" />
                     </IonButtons>
-                    <IonTitle>Mechanica Beau</IonTitle>
+                    <IonTitle>Pump Lec and Calc</IonTitle>
                 </IonToolbar>
             </IonHeader>
             

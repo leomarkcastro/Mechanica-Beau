@@ -5,8 +5,6 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
 import store from './utility/Storage/redux_init';
-
-
 import { Provider } from "react-redux"
 
 ReactDOM.render(

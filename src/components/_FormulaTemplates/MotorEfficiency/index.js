@@ -33,6 +33,8 @@ function FormulaMotorEfficiency(props){
             setFormulaData()
         }
         if (inp1 && inp2){
+            // inp1/inp2
+            // 123456 -> 123,456
             b = String.raw`e_m = ${numberWithCommas((inp1/inp2))}`
         }
         setFormula(a)

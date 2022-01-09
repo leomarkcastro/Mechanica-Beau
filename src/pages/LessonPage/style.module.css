@@ -1,0 +1,75 @@
+@import url("../../theme/variables.css");
+
+.formulaList{
+    --background: linear-gradient(
+        180deg, 
+        rgba(var(--ion-background-color-rgb),1) 0%, 
+        rgba(var(--ion-color-secondary-rgb), 0.5) 25%,
+        rgba(var(--ion-color-secondary-rgb), 0.25) 35%,
+        rgba(var(--ion-background-color-rgb), 1) 100%
+    );
+
+    padding: 2.5% 2.5%;
+    padding-bottom: 25vh;
+}
+
+.formulaList > h1{
+    text-align: center;
+}
+
+.lessonCard{
+    box-shadow: none;
+}
+
+.lessonCard ion-card-content{
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    padding: 2.5% 5% !important;
+} 
+
+.lessonCard{
+    text-align: justify;
+}
+
+.lessonCard h3{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.imageDia{
+    text-align: center;
+    margin: auto;
+}
+
+.formulaShow{
+    font-size: 1.25rem;
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid var(--ion-color-tertiary);
+    flex-wrap: wrap;
+}
+
+.formulaShow_left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.formulaShow_right{
+    flex: 1 1 800px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.solCard{
+    font-size: 1.5rem;
+    padding: 1rem;
+}

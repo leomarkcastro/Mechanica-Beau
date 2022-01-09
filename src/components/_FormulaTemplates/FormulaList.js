@@ -18,6 +18,10 @@ import FormulaVelocityHead from "./VelocityHead";
 import FormulaVolumeFlowRate from "./VolumeFlowRate";
 import FormulaVolumEffic from "./VolumetricEfficiency";
 import FormulaWaterPower from "./WaterPower";
+import FormulaActualEfficiency from "./ActualPumpEfficiency";
+import FormulaActualPowerP from "./ActualPumpPowerP";
+import FormulaActualPowerQ from "./ActualPumpPowerQ";
+import FormulaActualPowerH from "./ActualPumpPowerH";
 
 export const FormulaList = [
     {   title : "Volume Flow Rate of Liquid Handled By Pump",
@@ -234,6 +238,50 @@ export const FormulaList = [
         ],
         image: "",
         formulaElement: props => props2 => <FormulaSlip {...props} {...props2}  />
+    },
+    {   title : "Actual Pump Efficiency",
+        formula : String.raw`EFF = \frac{F_A}{F_D} \times {100}`,
+        description: "Computes the actual pump flow rate compared to the anticipated design flow rate to compute the efficiency of the design",
+        variables: [
+            [String.raw`EFF`, "Actual Pump Efficiency"],
+            [String.raw`F_A`, "Actual Flow Rate"],
+            [String.raw`F_D`, "Design Flow Rate"],
+        ],
+        image: "",
+        formulaElement: props => props2 => <FormulaActualEfficiency {...props} {...props2}  />
+    },
+    {   title : "Actual Pump Power",
+        formula : String.raw`Power = {Q} \times {\gamma} \times {H}`,
+        description: "Computes the actual pump flow power with consideration to flow rate, specific gravity constant and head",
+        variables: [
+            [String.raw`Q`, "Flow Rate"],
+            [String.raw`\gamma`, "Specific Gravity Constant"],
+            [String.raw`H`, "Head"],
+        ],
+        image: "",
+        formulaElement: props => props2 => <FormulaActualPowerP {...props} {...props2}  />
+    },
+    {   title : "Actual Pump Flow Rate",
+        formula : String.raw`Q = \frac{P}{\gamma} \times {H}`,
+        description: "Computes the actual pump flow power with consideration to flow rate, specific gravity constant and head",
+        variables: [
+            [String.raw`P`, "Flow Rate"],
+            [String.raw`\gamma`, "Specific Gravity Constant"],
+            [String.raw`H`, "Head"],
+        ],
+        image: "",
+        formulaElement: props => props2 => <FormulaActualPowerQ {...props} {...props2}  />
+    },
+    {   title : "Actual Pump Flow Head",
+        formula : String.raw`H = \frac{P}{Q} \times {\gamma}`,
+        description: "Computes the actual pump flow power with consideration to flow rate, specific gravity constant and head",
+        variables: [
+            [String.raw`P`, "Flow Rate"],
+            [String.raw`Q`, "Flow Rate"],
+            [String.raw`\gamma`, "Specific Gravity Constant"],
+        ],
+        image: "",
+        formulaElement: props => props2 => <FormulaActualPowerH {...props} {...props2}  />
     },
 ]
 
